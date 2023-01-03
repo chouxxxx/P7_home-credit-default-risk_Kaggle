@@ -1,0 +1,8 @@
+,classifier,score,run_time (s)
+0,DummyClassifier(strategy='most_frequent'),0.5,0.102
+1,"LogisticRegression(C=0.01, random_state=42)",0.722,2.06
+2,SGDClassifier(loss='log'),0.688,29.0
+3,GaussianNB(),0.494,0.117
+4,MultinomialNB(alpha=100),0.633,0.189
+5,KNeighborsClassifier(n_neighbors=100),0.609,1.25
+7,"DecisionTreeClassifier(max_depth=3, min_samples_split=10, random_state=42)",0.669,1.46
