@@ -1,0 +1,25 @@
+,classifier,score,run_time (s)
+0,DummyClassifier(strategy='most_frequent'),0.5,0.542
+1,"LogisticRegression(C=0.01, n_jobs=1, random_state=42, solver='sag')",0.722,30.0
+2,"SGDClassifier(loss='log', penalty='elasticnet')",0.689,36.0
+3,GaussianNB(),0.492,1.31
+4,MultinomialNB(alpha=100),0.633,0.71
+5,"KNeighborsClassifier(n_neighbors=100, weights='distance')",0.605,1.62
+6,"DecisionTreeClassifier(max_depth=3, min_samples_split=10, random_state=42)",0.682,7.18
+7,"RandomForestClassifier(criterion='entropy', max_depth=30, n_estimators=1000,
+                       random_state=42)",0.717,55.0
+8,GradientBoostingClassifier(random_state=42),0.733,560.0
+9,"AdaBoostClassifier(learning_rate=0.01, n_estimators=1000, random_state=42)",0.741,234.0
+10,"XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=1, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=42, ...)",0.742,65.0
+11,<catboost.core.CatBoostClassifier object at 0x00000151C53E4520>,0.747,110.0
+13,"LGBMClassifier(boosting_type='goss', num_leaves=10, random_state=42)",0.742,3.22
