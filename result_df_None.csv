@@ -1,4 +1,4 @@
-,classifier,best_score,avg_score_folds,fold0_score,fold1_score,fold2_score,fold3_score,fold4_score,run_time (s)
+,classifier,best_score,avg_score_folds,fold0_score,fold1_score,fold2_score,fold3_score,fold4_score,run_time_s
 0,GaussianNB(),0.493,0.493,0.493,0.496,0.492,0.503,0.481,0.723
 1,DummyClassifier(strategy='most_frequent'),0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.302
 2,MultinomialNB(alpha=1),0.624,0.624,0.624,0.619,0.62,0.662,0.596,0.401
@@ -7,8 +7,8 @@
                        random_state=42)",0.687,0.688,0.691,0.683,0.69,0.705,0.669,1.95
 5,"SGDClassifier(loss='log', penalty='elasticnet')",0.71,0.71,0.715,0.691,0.704,0.749,0.691,7.53
 6,"RandomForestClassifier(criterion='entropy', max_depth=10, random_state=42)",0.711,0.714,0.731,0.704,0.699,0.735,0.701,4.03
-7,<catboost.core.CatBoostClassifier object at 0x00000175D93E9DC0>,0.712,,,,,,,183.0
-8,"LogisticRegression(C=0.1, n_jobs=1, random_state=42, solver='sag')",0.725,0.725,0.739,0.702,0.706,0.76,0.718,12.0
+7,<catboost.core.CatBoostClassifier object at 0x00000175D93E9DC0>,0.712,,,,,,,183
+8,"LogisticRegression(C=0.1, n_jobs=1, random_state=42, solver='sag')",0.725,0.725,0.739,0.702,0.706,0.76,0.718,12
 9,"XGBClassifier(base_score=None, booster='dart', callbacks=None,
               colsample_bylevel=None, colsample_bynode=None,
               colsample_bytree=None, early_stopping_rounds=None,
@@ -19,5 +19,5 @@
               max_delta_step=None, max_depth=6, max_leaves=None,
               min_child_weight=None, missing=nan, monotone_constraints=None,
               n_estimators=100, n_jobs=None, num_parallel_tree=None,
-              predictor=None, random_state=42, ...)",0.742,0.745,0.747,0.754,0.728,0.758,0.739,78.0
+              predictor=None, random_state=42, ...)",0.742,0.745,0.747,0.754,0.728,0.758,0.739,78
 13,"LGBMClassifier(boosting_type='dart', num_leaves=10, random_state=42)",0.745,0.746,0.739,0.755,0.744,0.758,0.735,3.92

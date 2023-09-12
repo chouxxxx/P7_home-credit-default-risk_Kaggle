@@ -1,15 +1,15 @@
-,classifier,best_score,avg_score_folds,fold0_score,fold1_score,fold2_score,fold3_score,fold4_score,run_time (s)
+,classifier,best_score,avg_score_folds,fold0_score,fold1_score,fold2_score,fold3_score,fold4_score,run_time_s
 0,GaussianNB(),0.499,0.499,0.498,0.503,0.498,0.505,0.492,1.67
 1,DummyClassifier(strategy='most_frequent'),0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.07
 2,MultinomialNB(alpha=10),0.619,0.619,0.63,0.599,0.61,0.656,0.601,1.18
 3,"DecisionTreeClassifier(max_depth=3, min_samples_split=10, random_state=42)",0.638,0.645,0.656,0.626,0.621,0.658,0.666,9.41
 4,"KNeighborsClassifier(n_neighbors=1000, weights='distance')",0.649,0.649,0.671,0.614,0.627,0.695,0.64,2.42
-5,<catboost.core.CatBoostClassifier object at 0x00000175D93E9DC0>,0.67,,,,,,,603.0
-6,RandomForestClassifier(random_state=42),0.686,0.692,0.686,0.687,0.677,0.724,0.683,15.0
+5,<catboost.core.CatBoostClassifier object at 0x00000175D93E9DC0>,0.67,,,,,,,603
+6,RandomForestClassifier(random_state=42),0.686,0.692,0.686,0.687,0.677,0.724,0.683,15
 7,"SGDClassifier(class_weight={0: 0.08781952865764357, 1: 11.386988922457201},
-              loss='log', penalty='elasticnet')",0.692,0.695,0.698,0.676,0.683,0.739,0.681,24.0
-13,"LGBMClassifier(boosting_type='dart', random_state=42)",0.707,0.71,0.719,0.692,0.685,0.74,0.711,11.0
-8,"LogisticRegression(C=0.01, n_jobs=1, random_state=42, solver='sag')",0.713,0.715,0.728,0.691,0.69,0.757,0.708,20.0
+              loss='log', penalty='elasticnet')",0.692,0.695,0.698,0.676,0.683,0.739,0.681,24
+13,"LGBMClassifier(boosting_type='dart', random_state=42)",0.707,0.71,0.719,0.692,0.685,0.74,0.711,11
+8,"LogisticRegression(C=0.01, n_jobs=1, random_state=42, solver='sag')",0.713,0.715,0.728,0.691,0.69,0.757,0.708,20
 9,"XGBClassifier(base_score=None, booster='dart', callbacks=None,
               colsample_bylevel=None, colsample_bynode=None,
               colsample_bytree=None, early_stopping_rounds=None,
@@ -20,4 +20,4 @@
               max_delta_step=None, max_depth=6, max_leaves=None,
               min_child_weight=None, missing=nan, monotone_constraints=None,
               n_estimators=100, n_jobs=None, num_parallel_tree=None,
-              predictor=None, random_state=42, ...)",0.717,0.729,0.726,0.739,0.705,0.742,0.732,143.0
+              predictor=None, random_state=42, ...)",0.717,0.729,0.726,0.739,0.705,0.742,0.732,143
